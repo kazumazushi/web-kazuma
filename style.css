@@ -1,3 +1,6 @@
+
+/* nav area */
+
 #nav-ul {
     list-style-type: none;
     margin: 0;
@@ -12,46 +15,94 @@ li {
 }
 
 li a {
-    display: inline-sblock;
+    display: inline-block;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.15rem;
+    font-weight: bold;
     text-align: center;
-    padding: 15px 14px;
+    padding: 15px 18px;
     text-decoration: none;
+
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: gray;
+    background-color: greenyellow;
+    border: paleturquoise;
+    color: black;
 }
 
+/* section1 */
 #intro {
     display: block;
-    margin:0px;
-    padding:0px 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:;
-    font-weight:;
-    text-align: center;
-    back-grooun
-
+    opacity: 0.85;
+    margin:0;
+    padding:0;
+    position: relative; 
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e471a27144269e4b573dfdee025e7327&auto=format&fit=crop&w=1440&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    width: 100%;
+    line-height: 2px;
     
 }
 
-#btn-a {
-    border: 2px solid #000000;
-    text-align: center
-    text-decoration: none;
+#intro:hover {
+    opacity: 0.5;
+    border: 1px solid lightseagreen;
+}
 
+#intro #head1 {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    bottom:50%;
+    text-align: center;
+    line-height: 1rem
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight:bold;
+    line-height: 1rem;
+    
+}
+
+#intro #pa1 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    bottom:50%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.2rem;
+    font-weight:bold;
+    line-height: 1rem;
+
+}
+
+#intro #btn-a {
+    position: absolute;
+    padding: 1px;
+    margin: 1px;
+    top: 65%;
+    left: 42%;
+    bottom:20%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+/*   border: 1px solid #000000; */
+/*   border-spacing: 0.5px; */
+    text-decoration: none;
+    line-height: 1.7rem;
 }
 
 #btn-a:hover {
     color: lightseagreen;
 }
 
-#img1 {
-   width:900px;
-   height:800px;
-   padding:0px;
-   margin :3px;
-
-}
+/* section1 end */
